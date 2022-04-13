@@ -1,0 +1,3 @@
+'''Generators are functions that can return an object that can iterated over.  And the special thing is that they generate the items inside the objects lazily, which means they generate the item one at a time and only when you ask for it, and because of this they are more memory efficient than other sequence objects when you have to deal with large data sets.  They are a powerful advance python technique.'''
+
+'''A generator is defined like a normal function, but with a yield keyword instead of the return keyword'''
